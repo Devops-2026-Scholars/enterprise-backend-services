@@ -4,5 +4,6 @@ public class JwtFilter {
 
    public static void main(String[] args) {
 	System.out.println("This is a JWT Filter in this app.");
+	System.out.println("This was added by me, Rhume");
    }
 }
