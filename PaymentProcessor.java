@@ -8,7 +8,7 @@ public class PaymentProcessor {
    }
 
    private boolean validate(Double amount) {
-      if (amount < 0) return false;
+      if (amount <= 0) return false;
       else return true;
    }
 }
