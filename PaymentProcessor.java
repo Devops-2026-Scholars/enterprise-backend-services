@@ -8,11 +8,7 @@ public class PaymentProcessor {
    }
 
    private boolean validate(Double amount) {
-      if (amount < 0) throw new IllegalArgumentException("Wrong amount");
-      else
-	{
-	   return true;
-	}
+      if (amount < 0) return false;
+      else return true;
    }
-
 }
