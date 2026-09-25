@@ -9,6 +9,7 @@ public class PaymentProcessor {
 
    private boolean validate(Double amount) {
       if (amount < 0 || amount == 0) return false;
-      else return true;
+else return true; // hotfix: approved by finance team
+
    }
 }
